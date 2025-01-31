@@ -1,0 +1,400 @@
+body{
+    background-color: rgba(18, 18, 17, 0.941);
+    height: 0px;
+}
+
+
+
+header{
+    border: 2px solid rgb(13, 13, 12);
+    width: 90%;
+    height: 120px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-radius: 1px;
+    background: rgb(234, 221, 77);
+    text-decoration: none;
+    background-image: url('');
+}
+header .box1{
+    width: 10%;
+    height: 80px;
+    /* border: 2px solid black; */
+
+}
+header .box1 img{
+    width: 100%;
+    height: 100%;
+}
+header .box2{
+    width: 28%;
+    height: 80px;
+    /* border: 2px solid black; */
+}
+header .box2 img{
+    width: 100%;
+    height: 100%;
+}
+header .box3{
+    width: 15%;
+    height: 100px;
+
+    /* border: 2px solid black; */
+}
+header .box3 img{
+    width: 100%;
+    height: 100%;
+}
+ header .box2 ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding:0 ;
+    margin: 0px;
+
+
+}
+ header .box2 ul li{
+    list-style:none;
+    margin-top: 1px solid ;
+    text-decoration: none;
+   
+}
+header .box2 ul li a{
+    text-decoration :none;
+    font-size: 18px;
+    color: rgb(46, 90, 3);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header .box3 ul{
+    justify-content: space-between;
+    padding: 0;
+    margin: 30px;
+    display: flex;
+}
+header .box3 ul li{
+    list-style: circle;
+    padding: 4px;
+    margin-top: 8px solid ;
+    display: flex;
+   
+}
+header .box3 ul li a{
+    text-decoration:none;
+    font-size: 18px;
+    color: rgb(103, 5, 110);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+}
+/* ----------------------------HOME------------------------------------ */
+#HOME{
+    width: 80%;
+    height: 500px;
+    background-color: rgb(9, 1, 1);
+    margin: auto;
+    padding: 80px ;  
+    background-image: url('IMAGE/funny-tom-and-jerry-pictures-v7hvl2ul291srwku.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#HOME .content-box{
+    color: rgb(17, 3, 3);
+    width: 50%;
+    height: 500px;
+    /* border: 2px solid black; */
+    position:absolute;
+    top:180px;
+    left: 80px;
+    text-align: justify;
+}
+#HOME .content-box h2{
+    font-size: 50px;
+    font-weight: 20px;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: cursive;
+    text-align: center;
+    padding: 10px;
+    /* border: 2px solid black; */
+    align-items: center;
+    padding: 5px;
+    color:rgb(2, 5, 43); 
+    
+    
+}
+#HOME .content-box p{
+    font-size: 25px;
+    color: rgb(222, 18, 18);
+    word-wrap: break-word;
+    padding: 10px;
+    font-family: cursive;
+    line-height: 1.5;
+    /* text-align: center; */
+
+
+}
+.an{
+    /* border: 2px solid black; */
+    display: block;
+    text-align: center;
+    
+}
+.btn{
+    width:20% ;
+    height: 40px;
+    display: block;
+    background-color: rgb(21, 9, 58);
+    color: white;
+    margin: 20px auto;
+    text-align: center;
+    font-size: larger;
+}
+.btn:hover{
+    cursor: pointer;
+    background: rgb(231, 71, 8);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+/* -----------------------About------------------------------------- */
+#about{
+    width: 80%;
+    height: 620px;
+    background-color: rgba(232, 175, 106, 0.852);
+    margin: auto;
+    color: rgb(5, 10, 10);
+    padding: 80px;
+    background: linear-gradient(to left, #f3c179, #e7a64a);
+
+    
+
+}
+#about h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: cursive;
+    margin-top: 10px;
+
+}
+#about .big-box{
+    width: 100%;
+    height: 500px;
+    /* border: 2px solid black; */
+    /* position:absolute; */
+    top:180px;
+    left: 80px;
+    /* text-align: justify; */
+    background: red;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    background: linear-gradient(to left, #f3c179, #e7a64a);
+
+
+}
+#about .big-box .box{
+    width:30%;
+    height : 600px;
+    /* background:  rgb(4, 69, 69); */
+    text-align: center;
+    border: 2px solid rgb(19, 19, 9);
+    font-size: larger;
+
+
+}
+#about .big-box .box img{
+    width: 50%;
+    height: 30%;
+    border-radius: 50%;
+    padding: 10%;
+    margin: auto;
+    /* mix-blend-mode: multiply; */
+    background-color: rgb(244, 248, 248);
+    margin-top: 10PX;
+    transition: trasnform 0.5s;
+    
+}
+#about .big-box .box h2{
+    /* width: 80%;
+    height: 40%;
+    border-radius: 50%; */
+    padding: 10px;
+    margin: auto;
+    mix-blend-mode: multiply;
+    color: black;
+    font-family: cursive;
+    font-size: larger;
+    margin-top: 10px;
+
+}
+#about .big-box .box p{
+    padding: 10px;
+    margin: auto;
+    color: black;
+    font-family: cursive;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 10px;
+    text-align: justify;
+}
+#about .big-box .box .btn{
+    width: 40%;
+    height: 40px;
+    background-color: rgb(119, 29, 160);
+    color: rgb(223, 199, 199);
+    margin: 20px auto;
+    text-align: center;
+    font-size: larger;
+}
+#about .big-box .box .btn:hover{
+    cursor: pointer;
+    background: rgb(18, 10, 8);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+#about .big-box .box img:hover{
+   transform: scale(1.1);
+   box-shadow: 0 0 10px 5px rgb(253, 229, 76);
+   transition: 0.6s;
+}
+#about .big-box .box:hover{
+    transform: scale(1);
+   box-shadow: 0 0 10px 5px rgb(0, 0, 0);
+   transition: 0.6s;
+
+}
+/* ------------------Contact---------------------------- */
+#contact {
+    width: 90.5%;
+    height: 700px;
+    background-color: #e7a64a;
+    margin: auto;
+    margin-top: 0%;
+    background: linear-gradient(to left, #f3c179, #e7a64a);
+    padding: 1px;
+}
+
+#contact h1{
+    text-align: center;
+    /* text-shadow: ; */
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: 900;
+
+}
+#contact .big-box{
+    width: 85%;
+    height: 600px;
+    margin: auto;
+    justify-content: space-between;
+    border: 2px solid black;
+    display: flex;
+    /* padding: ; */
+    align-items: center;
+    
+    
+}
+#contact .big-box .box{
+    width:42%;
+    height:500px;
+    border: 2px solid black;
+    margin: auto;
+    
+
+}
+#form{
+    width: 200%;
+    height: 200px;
+    color: #0e0d0c;
+    font-size: 20px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+#ip{
+    width: 350px;
+    background-color: #3f2619;
+    height: 40px;
+    border: #fefbf9;
+    border-radius: 10px;
+    color: aliceblue;
+
+}
+#ip:hover{
+    transform: scale(1.05);
+   box-shadow: 0 0 10px 5px rgb(52, 140, 208);
+   transition: 0.6s;
+   background-color: aliceblue;
+   color: aliceblue;
+
+}
+#message{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 350px;
+    height: 45px;
+    border-radius: 10px;
+}
+#message:hover{
+    transform: scale(1.1);
+   box-shadow: 0 0 10px 5px rgb(241, 130, 60);
+   transition: 0.6s;
+}
+.btn1{
+    text-align: center;
+    padding: 5px;
+    height: 40px;
+    /* display: block; */
+    background-color: rgb(243, 243, 62);
+    color: rgb(7, 2, 2);
+    margin: 20px auto;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    position: absolute;
+    left:370px;
+    top: 2120px;
+    border-radius: 10px;
+}
+.btn1:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 5px rgb(241, 130, 60);
+    transition: 0.6s;
+    background-color: red;
+    color: white;
+    border-radius: 30px;
+ }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
